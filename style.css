@@ -5,10 +5,16 @@ h1 {
     color: rgb(226, 223, 43);
     text-align: center;
 }
+h1:hover {
+    color: aqua;
+    /* box-shadow: 0 5px 0px #3c354a; */
+    transition-duration: 1s, 100ms;
+}
 h2,h4,ul,li {
     color: rgb(255, 255, 255);
     text-align: center;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 a {
     color: brown;
@@ -17,4 +23,20 @@ a {
 }
 li {
     list-style: none;
+}
+.knopochka {
+    text-decoration: none;
+    display: inline-block;
+    line-height: 90px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 50px;
+    border-radius: 20px;
+    position: relative;
+}
+.knopochka:hover {
+    color: aqua;
+    background-color: blueviolet;
+    box-shadow: 0 5px 0px #3c354a;
+    transition-duration: 2s, 100ms;
 }
