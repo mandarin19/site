@@ -5,7 +5,7 @@ h1 {
     color: rgb(226, 223, 43);
     text-align: center;
 }
-h2,h4,ul {
+h2,h4,ul,li {
     color: rgb(255, 255, 255);
     text-align: center;
     text-transform: uppercase;
@@ -14,4 +14,7 @@ a {
     color: brown;
     text-transform: capitalize;
     font-size: 20px;
+}
+li {
+    list-style: none;
 }
