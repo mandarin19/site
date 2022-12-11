@@ -21,6 +21,11 @@ a {
     text-transform: capitalize;
     font-size: 20px;
 }
+a:hover {
+    color: rgb(255, 47, 245);
+    transition-duration: 3s;
+    /* cursor: default; */
+}
 li {
     list-style: none;
 }
